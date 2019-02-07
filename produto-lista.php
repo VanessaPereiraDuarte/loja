@@ -3,7 +3,7 @@ include ("conecta.php");
 include ("banco-produto.php"); ?>
 
 <?php
-	if(array_key_exists("removido" , $_GET) && $_GET['removido']=='true') { ?>
+	if(array_key_exists("removido" , $_POST) && $_POST['removido']=='true') { ?>
 	<p class="alert-sucess">Produto apagado com sucesso.</p>
 <?php } ?>
 
@@ -18,19 +18,12 @@ $produtos = listaProdutos($conexao);
  		<tr>
  			<td><?= $produto['nome'] ?></td>
  			<td><?= $produto['preco'] ?></td>
+ 			<td><?= substr($produto['descricao'], 0, 40) ?></td>
  			<td>
-			<?php 
-
-			if ($produto['descricao']) {
-				echo $produto['descricao'];
- 			} else {
- 				echo 'Produto sem descrição';
- 			}
-
- 			?> 				
- 			</td>
- 			<td>
- 				<a href="remove-produto.php?id=<?=$produto['id']?>" class="btn btn-danger" >remover</a>
+ 				<form action="remove-produto.php" method="POST">
+ 					<input type="hidden"  name="id" value="<?=$produto['id']?>">
+ 					<button class="btn btn-danger">remover</button>
+ 				</form>
  		</tr>	
  	<?php
 
