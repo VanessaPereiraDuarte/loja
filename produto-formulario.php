@@ -1,4 +1,4 @@
-<?php include ("cabecalho.php"); ?>
+<?php include ("cabecalho.php"); include ("banco-categoria.php"); include ("conecta.php"); ?>
 	<h1> Formulário de cadastro </h1>
 		<form action="adiciona-produto.php" method="POST">
 
@@ -14,6 +14,23 @@
 			<tr>	
 				<td>Descrição:</td>
 				<td><input type="text" name="descricao"></td>
+			</tr>
+			<tr>
+				<td>Categorias</td>
+				<?php 
+					
+					$categorias = listaCategorias($conexao); 
+					foreach($categorias as $categoria){
+
+				?>
+
+				<td>
+					<label><?= $categoria['nome'] ?></label>
+					<input type="radio" name="catgoria">	
+				</td>
+				
+
+				<?php } ?>
 			</tr>
 			<tr>	
 				<td><input type="submit" value="Cadastrar"></td>	
