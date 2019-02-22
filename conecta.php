@@ -1,5 +1,5 @@
 <?php
-$conexao = mysqli_connect('sql10.freemysqlhosting.net:3306', 'sql10278205', 'uQ3lWS3Wf3', 'sql10278205');
+$conexao = mysqli_connect('localhost:3306', 'trento81_project', 'senha', 'trento81_project');
 
 if (!$conexao) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
