@@ -16,21 +16,14 @@
 				<td><input type="text" name="descricao"></td>
 			</tr>
 			<tr>
-				<td>Categorias</td>
-				<?php 
-					
-					$categorias = listaCategorias($conexao); 
-					foreach($categorias as $categoria){
-
-				?>
-
-				<td>
-					<label><?= $categoria['nome'] ?></label>
-					<input type="radio" name="catgoria">	
-				</td>
-				
-
-				<?php } ?>
+			    <td>Categoria</td>
+			    <td>
+			        <select name="categoria_id">
+				        <?php foreach($categorias as $categoria) : ?>
+				        <option value="<?=$categoria['id']?>"><?=$categoria['nome']?></option>
+				        <?php endforeach ?>
+			        </select>
+			    </td>
 			</tr>
 			<tr>	
 				<td><input type="submit" value="Cadastrar"></td>	

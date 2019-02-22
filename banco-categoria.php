@@ -10,3 +10,10 @@ function listaCategorias($conexao){
 	return $categorias;
 
 }
+
+function insereProduto($conexao, $nome, $preco, $descricao, $categoria_id) {
+    $query = "insert into produtos (nome, preco, descricao, categoria_id) values ('{$nome}', {$preco}, '{$descricao}', {$categoria_id})";
+    $resultadoDaInsercao = mysqli_query($conexao, $query);
+
+    return $resultadoDaInsercao;
+}
