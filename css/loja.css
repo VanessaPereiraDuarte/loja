@@ -1,8 +1,44 @@
-body {
-    padding-top: 50px;
+.lateral-rosa{
+	background-color: #bf1d86;
+    width: 200px;
+    height: 100%;
+    margin-left: 0;
+    position: fixed;
 }
+.menu{
+    position: sticky;
+    margin-left: 200px;
+}
+.botao-pesquisa{
+	background-color: #dcd0d052;
+    border-radius: 4px;
+    border: 0;
+  	margin: 11px 15px;
+}
+.pesquisa{
+    border-radius: 8px;
+    border: 0;
 
-.principal {
-    padding: 40px 15px;
-    text-align: center;
+}
+.titulo-produtos{
+	    margin: 0 31px;
+	    color: #bf1d86;
+}
+.caixa-cinza{
+	background-color:#80808012;
+    height: 100%;
+   width: 85%;
+    margin-left: 200px;
+}
+.sub-titulo {
+	margin-left: 31px;
+	color: gray;
+	margin-bottom: 15px;
+}
+.tabela-produtos{
+	background-color:#d2caca45;
+	display: inline-flex;
+    margin-left: 51px;
+    height: 68px;
+    width:  882px;
 }
