@@ -6,25 +6,31 @@
 
  				<p class="sub-titulo">Exibindo 10 produtos</p>
 
-				<div class="produtos container">
+				<div class="produtos">
 					<table class="tabela-produtos">
-						<thead class="tabela">
+						<thead>
 							<tr>
 								<th>Nome</th>
-								<th>Descrcição</th>
+								<th>Descrição</th>
 								<th>Quantidade</th>
 								<th>Valor</th>
 							</tr>
 						</thead>
-
-						<tr>
-							<td>OI</td>
-							<td>OI</td>
-						</tr>
-						<tr>
-							<td>OI</td>
-							<td>OI</td>
-						</tr>
+						<tbody>
+							<tr>
+								<td>Batton - Jequitti</td>
+								<td>Botton nude</td>
+								<td>54</td>
+								<td>R$ 35,00</td>
+							</tr>
+							<tr>
+								<td>Delineador - MAC</td>
+								<td>Delineador cor preto</td>
+								<td>20</td>
+								<td>R$ 150,00</td>
+							</tr>
+						</tbody>
+						
 					</table>
 				</div>		
 	</section>

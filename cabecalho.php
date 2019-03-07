@@ -8,7 +8,6 @@
 
 <body>
 
-	<?php include ''?>
 	<div class="lateral-rosa"></div>
 	
 	<section class="menu">

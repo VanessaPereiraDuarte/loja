@@ -21,24 +21,35 @@
 
 }
 .titulo-produtos{
-	    margin: 0 31px;
-	    color: #bf1d86;
+    color: #bf1d86;
 }
 .caixa-cinza{
 	background-color:#80808012;
     height: 100%;
    width: 85%;
     margin-left: 200px;
+    padding: 2%;
 }
 .sub-titulo {
-	margin-left: 31px;
 	color: gray;
-	margin-bottom: 15px;
 }
+
 .tabela-produtos{
-	background-color:#d2caca45;
-	display: inline-flex;
-    margin-left: 51px;
-    height: 68px;
-    width:  882px;
+    height: 16%;
+    width:  100%;
+}
+
+.tabela-produtos tr td{
+    background-color: white;
+    padding: 2%;
+}
+
+.tabela-produtos thead{
+    background-color:#d2caca45;
+    color: gray;
+}
+
+.tabela-produtos thead tr th{
+    padding: 2%;
+    font-weight: unset;
 }
