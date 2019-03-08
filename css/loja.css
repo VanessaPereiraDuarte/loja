@@ -37,11 +37,14 @@
 .tabela-produtos{
     height: 16%;
     width:  100%;
+    box-shadow: 3px 10px 27px 0px #bfc5bf;
 }
 
 .tabela-produtos tr td{
     background-color: white;
-    padding: 2%;
+    padding: 1%;
+    font-weight: unset;
+    color: gray;
 }
 
 .tabela-produtos thead{
@@ -50,6 +53,27 @@
 }
 
 .tabela-produtos thead tr th{
-    padding: 2%;
+    padding: 1%;
     font-weight: unset;
+}
+.botao-alterar{
+    color: white;
+    background-color: #bf1d86;
+    border: 0;
+    width: 51%;
+    font-size: 14px;
+    border-radius: 7px;
+    height: 127%;
+}
+.botao-alterar:hover{
+    background-color:#f3079fb3;
+}
+.botao-excluir{
+    background-color: #bf1d86;
+    border: 0;
+    border-radius: 3px;
+
+}
+.botao-excluir:hover{
+    background-color: #f3079fb3;
 }

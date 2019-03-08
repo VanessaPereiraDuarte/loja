@@ -14,6 +14,9 @@
 								<th>Descrição</th>
 								<th>Quantidade</th>
 								<th>Valor</th>
+								<th><p></p></th>
+								
+								
 							</tr>
 						</thead>
 						<tbody>
@@ -22,12 +25,20 @@
 								<td>Botton nude</td>
 								<td>54</td>
 								<td>R$ 35,00</td>
+								<td> <button type="button" class="botao-alterar"> alterar </button> <button type="button" class="botao-excluir">
+								<img src="imagens/trash-alt-regular.svg" width="15px" height="auto"> </button>
+							 	 </td>
+								
 							</tr>
 							<tr>
 								<td>Delineador - MAC</td>
 								<td>Delineador cor preto</td>
 								<td>20</td>
 								<td>R$ 150,00</td>
+								<td> <button type=button class="botao-alterar"> alterar </button>
+								<button type="button" class="botao-excluir">
+								<img src="imagens/trash-alt-regular.svg" width="15px" height="auto"> </button> </td>
+								
 							</tr>
 						</tbody>
 						
