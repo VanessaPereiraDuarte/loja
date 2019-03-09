@@ -25,10 +25,12 @@
 								<td>Botton nude</td>
 								<td>54</td>
 								<td>R$ 35,00</td>
-								<td> <button type="button" class="botao-alterar"> alterar </button> <button type="button" class="botao-excluir">
-								<img src="imagens/trash-alt-regular.svg" width="15px" height="auto"> </button>
-							 	 </td>
-								
+								<td>
+									<button type="button" class="botao-alterar"> alterar</button>
+									<button type="button" class="botao-excluir">
+										<i class="far fa-trash-alt"></i>
+									</button>
+							 	</td>
 							</tr>
 							<tr>
 								<td>Delineador - MAC</td>
@@ -37,7 +39,9 @@
 								<td>R$ 150,00</td>
 								<td> <button type=button class="botao-alterar"> alterar </button>
 								<button type="button" class="botao-excluir">
-								<img src="imagens/trash-alt-regular.svg" width="15px" height="auto"> </button> </td>
+								<i class="far fa-trash-alt"></i> 
+								</button> 
+								</td>
 								
 							</tr>
 						</tbody>

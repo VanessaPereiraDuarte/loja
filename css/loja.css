@@ -16,9 +16,8 @@
   	margin: 11px 15px;
 }
 .pesquisa{
-    border-radius: 8px;
     border: 0;
-
+    margin-top: 1%;
 }
 .titulo-produtos{
     color: #bf1d86;
@@ -56,24 +55,65 @@
     padding: 1%;
     font-weight: unset;
 }
-.botao-alterar{
-    color: white;
-    background-color: #bf1d86;
-    border: 0;
-    width: 51%;
-    font-size: 14px;
-    border-radius: 7px;
-    height: 127%;
-}
+
 .botao-alterar:hover{
     background-color:#f3079fb3;
 }
-.botao-excluir{
-    background-color: #bf1d86;
-    border: 0;
-    border-radius: 3px;
 
-}
 .botao-excluir:hover{
     background-color: #f3079fb3;
+}
+
+.botao-pesquisar{
+    background-color: white;
+    color: gray;
+    border: 0;
+    font-weight: unset;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.sino{
+    float: right;
+    margin-top: 15px;
+    margin-right: 2%;
+    color:gray;
+}
+.envelope{
+    float: right;
+    margin-top: 15px;
+    margin-right: 5%;
+    color:gray;
+}
+.usuario{
+    color: gray;
+    float: right;
+    margin-top: 1%;
+    margin-right: 1%;
+
+}
+.imagen-usuario{
+    height: 40px;
+    float: right;
+    border-radius: 30px;
+    width: 40px;
+}
+
+
+.botao-alterar, .botao-excluir {
+    color: white;
+    background-color: #bf1d86;
+    border: 0;
+    font-size: 11px;
+    border-radius: 7px;
+    padding: 5px 13px;    
+}
+
+.botao-excluir{
+    padding: 7px 9px; 
+}
+
+button{
+    border: 0;
+    background-color: transparent;
+
 }
