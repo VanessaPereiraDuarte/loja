@@ -5,15 +5,15 @@
   display: inline-block;
 }
 
-.menu-lateral ul li{
-    list-style: none;
-    padding: 5%;
-}
-
-.menu-lateral ul{
+.menu-lateral ul {
     margin-bottom: 0;
     background-color: #84155d;
     border-left: 4px solid #c7bdc4;
+}
+
+.menu-lateral ul li{
+    list-style: none;
+    padding: 5%;
 }
 
 .menu-lateral ul li a{
