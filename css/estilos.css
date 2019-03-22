@@ -1,0 +1,173 @@
+.lateral-rosa{
+  background-color: #bf1d86;
+  width: 15%;
+  height: 100%;
+  display: inline-block;
+}
+
+.menu-lateral ul {
+    margin-bottom: 0;
+    background-color: #84155d;
+    border-left: 4px solid #c7bdc4;
+}
+
+.menu-lateral ul li{
+    list-style: none;
+    padding: 5%;
+}
+
+.menu-lateral ul li a{
+    color: #eceaea;
+}
+
+.home{
+    padding: 0 10px;
+}
+
+.flexa{
+    float: right;
+    padding: 5px 5px 0 0;
+}
+
+.menu{
+    float: right;
+    width: 100%;
+    background-color: white
+}
+
+.menu nav form{
+    display: flex;
+}
+
+.menu nav form .pesquisar-menu{
+    display: flex;
+    flex: 1;
+    padding: 1%;
+}
+
+.menu nav form .pesquisar-menu button{
+    border-radius: 4px;
+    border: 0;
+    margin: 11px 15px;
+}
+
+.lupa{
+    color: gray;
+}
+
+.botao-pesquisar{
+    background-color: white;
+    color: gray;
+    border: 0;
+    font-weight: unset;
+    margin: 0 10px 0 10px;
+}
+
+.menu nav form .grupo-funcoes{
+    display: flex;
+    flex: 0;
+    padding: 1%;
+}
+
+.grupo-botoes{
+    width: 65px;
+    display: inline-block;
+    margin: 11px;
+    border-right: 1px solid #80808038;
+}
+
+.sino, .envelope{
+    color:#c3b8b8;
+    padding: 5px;
+}
+
+.usuario-menu{
+    width: 154px;
+    height: 43px;
+    display: inline-block;
+}
+
+.usuario-menu img{
+    height: 31px;
+    border-radius: 30px;
+    width: 31px;
+    float: right;
+    padding: 5px;
+}
+
+.usuario-menu p{
+    display: inline-block;
+    margin-top: 6%;
+    color: #c3b8b8;
+}
+
+.caixa-cinza{
+	background-color:#80808012;
+    height: 100%;
+   width: 100%;
+    float: right;
+}
+
+.caixa-cinza > div{
+    padding: 2%;
+}
+
+.titulo-produtos{
+    color: #bf1d86;
+}
+
+.sub-titulo {
+	color: gray;
+}
+
+.tabela-produtos{
+    height: 16%;
+    width:  100%;
+    box-shadow: 3px 10px 27px 0px #bfc5bf;
+}
+
+.tabela-produtos tr td{
+    background-color: white;
+    padding: 1%;
+    font-weight: unset;
+    color: gray;
+}
+
+.tabela-produtos thead{
+    background-color:#d2caca45;
+    color: gray;
+}
+
+.tabela-produtos thead tr th{
+    padding: 1%;
+    font-weight: unset;
+}
+
+.botao-alterar:hover{
+    background-color:#f3079fb3;
+}
+
+.botao-excluir:hover{
+    background-color: #f3079fb3;
+}
+
+.botao-alterar, .botao-excluir {
+    color: white;
+    background-color: #bf1d86;
+    border: 0;
+    font-size: 13px;
+    border-radius: 7px;
+    padding: 5px 13px;    
+}
+
+.botao-excluir{
+    padding: 7px 9px; 
+    font-size: 11px;
+}
+
+button{
+    border: 0;
+    background-color: transparent;
+}
+
+

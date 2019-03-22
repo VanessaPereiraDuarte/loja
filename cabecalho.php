@@ -1,30 +1,13 @@
 <html>
 <head>
     <title>Minha loja</title>
-    <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel="stylesheet"/>
-    <link href="css/loja.css" rel="stylesheet"/>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/estilos.css" rel="stylesheet"/>
+	<link href="css/padrao.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  	<a class="navbar-brand" href="index.php">Minha Loja</a>
-	    	<ul class="navbar-nav mr-auto">
-		      	<li class="nav-item active">
-		       		 <a class="nav-link" href="sobre.php">Sobre</a>
-		      	</li>
-		      	<li class="nav-item active">
-		       		 <a class="nav-link" href="produto-formulario.php">Adiciona Produto</a>
-		      	</li>
-		      	<li class="nav-item active">
-		       		 <a class="nav-link" href="produto-lista.php">Produtos</a>
-		      	</li>
-			</ul>
-		</div>
-	</nav>
-
-
-    <div class="container">
-
-        <div class="principal">
+ 
