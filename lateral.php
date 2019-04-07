@@ -16,4 +16,15 @@
             </li>
         </ul>
     </nav>
+    <section id="escolha-de-tema">
+        <figure class="azul"></figure>
+        <figure class="rosa"></figure>
+    </section>
 </div>
+
+<script>
+    function myFunction() {
+        var element = document.getElementById("myDIV");
+        element.classList.toggle("mystyle");
+    }
+</script>
