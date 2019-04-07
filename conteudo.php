@@ -9,6 +9,7 @@
 						</button>
 						<input  type="search" placeholder="Search...">
 					</div>
+				</form>
 					<div class="grupo-funcoes">
 						<div class="grupo-botoes">
 							<button type="button">
@@ -23,23 +24,23 @@
 							<img  src="imagens/foto.png" alt="foto">	
 						</div>
 					</div>
-				</form>
+				
 			</nav>
 		</section>
 		<section class="caixa-cinza">
 			<div>
 								
 					<h2 class="titulo-produtos">
-						<strong> Produtos </strong>
+						 Decoração - Mesa Principal
 					</h2>
-					<p class="sub-titulo">Exibindo 10 produtos</p>
+					<p class="sub-titulo">Exibindo 10 itens</p>
 
 					<div class="produtos">
 						<table class="tabela-produtos">
 							<thead>
 								<tr>
 									<th>Nome</th>
-									<th>Descrição</th>
+									
 									<th>Quantidade</th>
 									<th>Valor</th>
 									<th><p></p></th>
@@ -49,10 +50,10 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>Batton - Jequitti</td>
-									<td>Botton nude</td>
-									<td>54</td>
-									<td>R$ 35,00</td>
+									<td> Toalha </td>
+									
+									<td> 09 </td>
+									<td> R$ 35,00 </td>
 									<td>
 										<button type="button" class="botao-alterar"> alterar</button>
 										<button type="button" class="botao-excluir">
@@ -61,10 +62,10 @@
 									</td>
 								</tr>
 								<tr>
-									<td>Delineador - MAC</td>
-									<td>Delineador cor preto</td>
-									<td>20</td>
-									<td>R$ 150,00</td>
+									<td> Vasos </td>
+									
+									<td> 20 </td>
+									<td> R$ 50,00 </td>
 									<td> <button type=button class="botao-alterar"> alterar </button>
 									<button type="button" class="botao-excluir">
 									<i class="far fa-trash-alt"></i> 
