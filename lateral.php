@@ -1,17 +1,19 @@
 <div class="lateral-rosa">
     <nav class="menu-lateral">
-    <h3>Loja </h3>
+
         <ul>
             <li>
-                <a href="#"><i class="fas fa-home home"></i> Minha loja <i class="fas fa-angle-right flexa"></i></a>
+                <a href="#"><i class="fas fa-home home"></i> Decoração </a>
             </li>
             <li>
-                <a href="#"></i> Adiciona Produtos</i></a>
+                <a href="#"></i> Mesa Principal</i></a>
             </li>
             <li>
-                <a href="#"></i>Produtos </i></a>
+                <a href="#"></i> Mesa Convidados </i></a>
             </li>
-            
+            <li>
+                <a href="#"></i> Geral </i></a>
+            </li>
         </ul>
     </nav>
 </div>
