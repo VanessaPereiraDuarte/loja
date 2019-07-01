@@ -1,6 +1,4 @@
-</div> <!-- fim div principal -->
-
-    </div> <!-- fim div container -->
-
+        </main>
+    </section>
 </body>
 </html>
